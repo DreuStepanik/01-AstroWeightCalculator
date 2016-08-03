@@ -16,23 +16,23 @@
 		</header>		
 		<form>
 <!-- Create An input element for the user to enter their weight. -->
-  		Enter weight in lbs:<br>
+  		<label>Enter weight in lbs:</label>
   		<input id="userWeight" type="text" weight="weight"><br>	
-			<p>Select one of the following:<br>
-			Planet Name | Multiple of Earth Gravity</p>		
+			<label>Select one of the following:<br>
+			Planet Name | Multiple of Earth Gravity</label>		
 <!-- A select element for the user to select a planet, populated with option elements where the value attribute is set to the surface gravity for that planet, and the content inside of the option elements represents the name of that planet. -->
   		<select id="planetMultiplier">
-	  		<option value="27.9">Sun | 27.9</option>
-	  		<option value="0.377">Mercury | 0.377</option>
-	  		<option value="0.9032">Venus | 0.9032</option>
-	  		<option value="1">Earth | 1</option>
-	  		<option value="0.1655">Moon | 0.1655</option>
-	  		<option value="0.3895">Mars | 0.3895</option>
-	  		<option value="2.640">Jupiter | 2.640</option>
-	  		<option value="1.139">Saturn | 1.139</option>
-	  		<option value="0.917">Uranus | 0.917</option>
-	  		<option value="1.148">Neptune | 1.148</option>
-	  		<option value="0.06">Pluto | 0.06</option>
+	  		<option value="27.9">Sun</option>
+	  		<option value="0.377">Mercury</option>
+	  		<option value="0.9032">Venus</option>
+	  		<option value="1">Earth</option>
+	  		<option value="0.1655">Moon</option>
+	  		<option value="0.3895">Mars</option>
+	  		<option value="2.640">Jupiter</option>
+	  		<option value="1.139">Saturn</option>
+	  		<option value="0.917">Uranus</option>
+	  		<option value="1.148">Neptune</option>
+	  		<option value="0.06">Pluto</option>
 			</select>
 <!-- A button element for the user to calculate their weight based on the above inputs. -->
 			<button type="button" onclick="calculatedWeight()">Click me to calculate Weight</button>
